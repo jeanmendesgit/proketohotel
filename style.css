@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+
+    background-color: #F5EFEB;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    height: 5vh;
+
+    background-color: #EFE7E0;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: chocolate;
+}
+
+main {
+    width: 100%;
+    background-color: #FAF8F5;
+    min-height: 100%;
+}
+
+section {
+    border: solid 1px black;
+    min-height: 35vh;
+}
+
+#reservas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reservas h2 {
+    text-align: center;
+}
+
+#reservas label, input {
+    margin: 10px;
+}
+
+#reservas button {
+    display: block;
+    margin: 20px auto;
+}
+
+#contatos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contatos h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icones img {
+    width: 30px;
+    margin: 0px 30px;
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+    background-color: #E6DDD4;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer a {
+    text-align: center;
+}
+
+.slides {
+    display: flex;
+}
+
+.slides img {
+    max-width: 100%;
+    object-fit: contain;
+    display: block;
+}
